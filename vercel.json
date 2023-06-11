@@ -1,10 +1,10 @@
 {
-  "version": "2.0.10",
+  "version": 2,
   "name": "test",
   "builds": [
     {
       "src": "src/main.ts",
-      "use": "@vercel/node"
+      "use": "@now/node"
     }
   ],
   "routes": [
